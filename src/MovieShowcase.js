@@ -21,14 +21,15 @@ export default class MovieShowcase extends Component {
   }
   
   render() {
-   
-    return <div id="movie-showcase">
+    return (
+      <div id="movie-showcase">
         {
           this.generateMovieCards() 
           // <MovieCard title ={movieData[0].title} IMDBRating = {movieData[0].IMDBRating} genres ={movieData[0].genres} poster ={movieData[0].poster}/>
         } 
       </div>
-  }
+      )
+    }
 }
 
 
